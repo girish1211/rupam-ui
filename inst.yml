@@ -1,7 +1,7 @@
 - name: playbook_2
   hosts: all
   become: true
-   tasks:
+  tasks:
      - name: escalation for users
        shell: id
        register: out
