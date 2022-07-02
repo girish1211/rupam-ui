@@ -1,11 +1,11 @@
 - name: playbook_2
   hosts: all
-  gather_facts: no
+  gather_facts: yes
   tasks:
 
     - name: Print the task_0
       debug:
-        msg: "{{ansible_selinux_python_present}}"
+        msg: "hhhhh"
       tags: amin
 
 
