@@ -1,0 +1,9 @@
+- name: playbook6
+  hosts: all
+  tasks:
+  #belowed one for specific key & it's details
+    - name: print messages_1
+      debug:
+       msg: "ansible_user_gid: {{ansible_user_gid}}"
+
+ 
