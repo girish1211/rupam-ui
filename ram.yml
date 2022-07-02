@@ -1,6 +1,6 @@
 -name: playbook1
  hosts: all
- vars_files: files.yml
+ vars_files: ram.yml
  tasks:
   - name: print messages_1
     debug:
