@@ -5,10 +5,10 @@
   tasks:
 
   - name: print messages_1
-      debug:
+    debug:
        msg: "ansible_user_gid: {{ansible_user_gid}}"
 
 
- - name: print messages_1
-      debug:
+  - name: print messages_1
+    debug:
        msg: "ansible_user_gid: {{nvme_core.io_timeout}}"
