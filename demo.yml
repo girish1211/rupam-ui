@@ -11,4 +11,4 @@
 
   - name: print messages_2
     debug:
-       msg: "ansible_user_gid: {{nvme_core.io_timeout}}"
+       msg: "ansible_user_gid: {{ansible_processor_cores}}"
